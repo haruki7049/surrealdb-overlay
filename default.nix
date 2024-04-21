@@ -8,7 +8,7 @@ self: super: {
         owner = "surrealdb";
         repo = "surrealdb";
         rev = "v${version}";
-        hash = "";
+        hash = "sha256-LC/T+TkHdZ0uWaVQpR2Q9l0fShPL871rOfxxsXyJnvw=";
       };
 
       cargoHash = "";
