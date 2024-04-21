@@ -1,13 +1,17 @@
 self: super: {
   surrealdb = {
-    "1.4.2" = super.stdenv.mkDerivation rec {
+    "1.4.2" = super.rustPlatform.buildRustPackage rec {
       pname = "surrealdb";
       version = "1.4.2";
 
-      src = super.fetchurl {
-        url = "https://github.com/surrealdb/surrealdb/releases/download/v${version}/surreal-v${version}.linux-amd64.tgz";
-        hash = "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI=";
+      src = super.fetchFromGitHub {
+        owner = "surrealdb";
+        repo = "surrealdb";
+        rev = "v${version}";
+        hash = "";
       };
+
+      cargoHash = "";
 
       nativeBuildInputs = [ super.pkg-config super.rustPlatform.bindgenHook ];
 
