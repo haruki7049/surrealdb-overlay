@@ -11,7 +11,7 @@ self: super: {
         hash = "sha256-LC/T+TkHdZ0uWaVQpR2Q9l0fShPL871rOfxxsXyJnvw=";
       };
 
-      cargoHash = "";
+      cargoHash = "sha256-1/l++iXiPCIwAVE8VQCSS++/9i3Kh1RNq3WnUjRy2fU=";
 
       nativeBuildInputs = [ super.pkg-config super.rustPlatform.bindgenHook ];
 
