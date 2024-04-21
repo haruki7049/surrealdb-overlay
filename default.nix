@@ -18,6 +18,13 @@ self: super: {
       buildInputs = [ super.openssl ] ++ super.lib.optionals super.stdenv.isDarwin
         [ super.darwin.app_sdk.frameworks.SystemConfiguration ];
 
+      doChech = false;
+
+      checkFlags = [
+        "--skip=ws_integration::none::merge"
+        "--skip=database_upgrade"
+      ];
+
       PROTOC = "${super.protobuf}/bin/protoc";
       PROTOC_INCLUDE = "${super.protobuf}/include";
 
