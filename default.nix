@@ -11,7 +11,7 @@ self: super: {
 
       nativeBuildInputs = [ super.pkg-config super.rustPlatform.bindgenHook ];
 
-      buildInputs = [ super.openssl ] ++ super.lib.optionals stdenv.isDarwin
+      buildInputs = [ super.openssl ] ++ super.lib.optionals super.stdenv.isDarwin
         [ super.darwin.app_sdk.frameworks.SystemConfiguration ];
 
       PROTOC = "${super.protobuf}/bin/protoc";
