@@ -6,7 +6,7 @@ self: super: {
 
       src = super.fetchurl {
         url = "https://github.com/surrealdb/surrealdb/releases/download/v${version}/surreal-v${version}.linux-amd64.tgz";
-        hash = "sha256-10hswwyckfcysindffiaf8z8g0lib800j1id8pws70250s4dz895";
+        hash = "";
       };
 
       nativeBuildInputs = [ super.pkg-config super.rustPlatform.bindgenHook ];
