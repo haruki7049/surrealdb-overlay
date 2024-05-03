@@ -13,6 +13,8 @@ self: super: {
 
       cargoHash = "sha256-1/l++iXiPCIwAVE8VQCSS++/9i3Kh1RNq3WnUjRy2fU=";
 
+      RUSTFLAGS = "--cfg surrealdb_unstable";
+
       nativeBuildInputs = [ super.pkg-config super.rustPlatform.bindgenHook ];
 
       buildInputs = [ super.openssl ] ++ super.lib.optionals super.stdenv.isDarwin
