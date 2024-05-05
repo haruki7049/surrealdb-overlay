@@ -1,6 +1,6 @@
 self: super: {
   surrealdb = {
-    "1.4.2" = super.rustPlatform.buildRustPackage rec {
+    "1.4.2" = super.stdenv.mkDerivation rec {
       pname = "surrealdb";
       version = "1.4.2";
 
