@@ -1,6 +1,11 @@
 self: super: {
   surrealdb = {
-    "1.4.2" = super.stdenv.mkDerivation rec {
+    "1.4.2" = let
+      rpath = super.lib.makeLibraryPath [
+        super.pkgs.gcc-unwrapped
+      ];
+    in
+    super.stdenv.mkDerivation rec {
       pname = "surrealdb";
       version = "1.4.2";
 
@@ -20,16 +25,9 @@ self: super: {
         runHook postInstall
       '';
 
-      preFixup = let
-        libPath = with super; super.lib.makeLibraryPath [
-          ell
-          glibc
-        ];
-      in ''
-        patchelf \
-          --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
-          --set-rpath "${libPath}" \
-          $out/bin/surreal
+      postFixup = ''
+        patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$out/bin/surreal" || true
+        patchelf --set-rpath ${rpath} "$out/bin/surreal" || true
       '';
     };
   };
