@@ -9,6 +9,8 @@ self: super: {
         hash = "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI=";
       };
 
+      sourceRoot = ".";
+
       installPhase = ''
         runHook preInstall
 
@@ -16,6 +18,18 @@ self: super: {
         cp surreal $out/bin/surreal
 
         runHook postInstall
+      '';
+
+      preFixup = let
+        libPath = with super; super.lib.makeLibraryPath [
+          ell
+          glibc
+        ];
+      in ''
+        patchelf \
+          --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
+          --set-rpath "${libPath}" \
+          $out/bin/surreal
       '';
     };
   };
