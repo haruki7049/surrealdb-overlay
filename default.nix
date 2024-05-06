@@ -26,21 +26,21 @@ self: super: {
         runHook preInstall
 
         mkdir -p $out/bin
-        cp surreal $out/bin/surrealdb
+        cp surreal $out/bin/surreal
 
         runHook postInstall
       '';
 
       postFixup = ''
-        patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$out/bin/surrealdb" || true
-        patchelf --set-rpath ${rpath} "$out/bin/surrealdb" || true
+        patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" "$out/bin/surreal" || true
+        patchelf --set-rpath ${rpath} "$out/bin/surreal" || true
       '';
 
       meta = with super.lib; {
         description =
           "A scalable, distributed, collaborative, document-graph database, for the realtime web";
         homepage = "https://surrealdb.com/";
-        mainProgram = "surrealdb";
+        mainProgram = "surreal";
         license = licenses.bsl11;
       };
     };
