@@ -23,7 +23,7 @@ self: super: {
       (builtins.filter (url: super.lib.strings.hasInfix version url)
         aarch64-linuxURLs);
 
-    mkBinaryInstall = { version, x86_64-linuxHash, aarch64-linuxHash, }:
+    mkBinaryInstall = version: x86_64-linuxHash: aarch64-linuxHash:
       super.stdenv.mkDerivation rec {
         inherit pname version;
 
@@ -63,7 +63,10 @@ self: super: {
         };
       };
   in {
-    "1.4.2" = surrealdb-template "1.4.2"
+    "1.4.2" = mkBinaryInstall "1.4.2"
+      "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI="
+      "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
+    "1.4.0" = mkBinaryInstall "1.4.0"
       "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI="
       "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
   };
