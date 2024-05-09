@@ -1,22 +1,29 @@
 self: super: {
-  surrealdb = {
-    "1.4.2" = let
-      inherit (super.stdenv.hostPlatform) system;
-      rpath = super.lib.makeLibraryPath [ super.pkgs.gcc-unwrapped ];
-    in super.stdenv.mkDerivation rec {
-      pname = "surrealdb";
-      version = "1.4.2";
+  surrealdb = let
+    pname = "surrealdb";
+    inherit (super.stdenv.hostPlatform) system;
+    rpath = super.lib.makeLibraryPath [ super.pkgs.gcc-unwrapped ];
+
+    releases = builtins.fromJSON (builtins.readFile ./sources.json);
+    assets = builtins.concatMap (release: release.assets) releases;
+    downloadURLs = builtins.map (asset: asset.browser_download_url) assets;
+
+    x86_64-linuxURLs = builtins.filter (link: super.lib.strings.hasInfix "linux-amd" link) downloadURLs;
+    aarch64-linuxURLs = builtins.filter (link: super.lib.strings.hasInfix "linux-arm64" link) downloadURLs;
+    x86_64-linuxUrlFetcher = version: builtins.head (builtins.filter (url: super.lib.strings.hasInfix version url) x86_64-linuxURLs);
+    aarch64-linuxUrlFetcher = version: builtins.head ( builtins.filter (url: super.lib.strings.hasInfix version url) aarch64-linuxURLs);
+
+    surrealdb-template = version: x86_64-linuxHash: aarch64-linuxHash: super.stdenv.mkDerivation rec {
+      inherit pname version;
 
       src = {
         x86_64-linux = super.fetchurl {
-          url =
-            "https://github.com/surrealdb/surrealdb/releases/download/v${version}/surreal-v${version}.linux-amd64.tgz";
-          hash = "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI=";
+          url = x86_64-linuxUrlFetcher version;
+          hash = x86_64-linuxHash;
         };
         aarch64-linux = super.fetchurl {
-          url =
-            "https://github.com/surrealdb/surrealdb/releases/download/v${version}/surreal-v${version}.linux-arm64.tgz";
-          hash = "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
+          url = aarch64-linuxUrlFetcher version;
+          hash = aarch64-linuxHash;
         };
       }.${system};
 
@@ -44,5 +51,7 @@ self: super: {
         license = licenses.bsl11;
       };
     };
+  in {
+    "1.4.2" = surrealdb-template "1.4.2" "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI=" "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
   };
 }
