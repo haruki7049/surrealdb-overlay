@@ -13,7 +13,7 @@ self: super: {
     x86_64-linuxUrlFetcher = version: builtins.head (builtins.filter (url: super.lib.strings.hasInfix version url) x86_64-linuxURLs);
     aarch64-linuxUrlFetcher = version: builtins.head ( builtins.filter (url: super.lib.strings.hasInfix version url) aarch64-linuxURLs);
 
-    surrealdb-template = version: x86_64-linuxHash: aarch64-linuxHash: super.stdenv.mkDerivation rec {
+    mkBinaryInstall = { version, x86_64-linuxHash, aarch64-linuxHash, }: super.stdenv.mkDerivation rec {
       inherit pname version;
 
       src = {
