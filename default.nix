@@ -67,7 +67,7 @@ self: super: {
       "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI="
       "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
     "1.4.0" = mkBinaryInstall "1.4.0"
-      "sha256-JaHfiAZFgKP5RS0GCQBakYKHPnIqOtds1J65yTznGoI="
+      "sha256-zvf+97Pl0Iw/WW9g/TMMCFHPt88emxvUZpdMWmhVAeA="
       "sha256-hlMtgEaonW41TTd2Ilrx3oXY5mdnZjfccPmg4x/6qnU=";
   };
 }
