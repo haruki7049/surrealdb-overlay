@@ -244,14 +244,14 @@
     "body": "",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/162305168/reactions",
-      "total_count": 16,
-      "+1": 5,
+      "total_count": 18,
+      "+1": 6,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
       "heart": 0,
-      "rocket": 11,
+      "rocket": 12,
       "eyes": 0
     }
   },
@@ -575,7 +575,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4639,
-        "download_count": 30,
+        "download_count": 33,
         "created_at": "2024-06-14T14:35:00Z",
         "updated_at": "2024-06-14T14:35:00Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.3/LICENSE"
@@ -643,7 +643,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14357482,
-        "download_count": 6,
+        "download_count": 7,
         "created_at": "2024-06-14T14:35:00Z",
         "updated_at": "2024-06-14T14:35:01Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.3/surreal-v1.5.3.darwin-arm64.tgz"
@@ -677,7 +677,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17071721,
-        "download_count": 101,
+        "download_count": 110,
         "created_at": "2024-06-14T14:35:00Z",
         "updated_at": "2024-06-14T14:35:01Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.3/surreal-v1.5.3.linux-amd64.tgz"
@@ -4261,7 +4261,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 16630054,
-        "download_count": 2832,
+        "download_count": 2835,
         "created_at": "2024-02-13T15:23:44Z",
         "updated_at": "2024-02-13T15:23:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.2.0/surreal-v1.2.0.linux-amd64.tgz"
