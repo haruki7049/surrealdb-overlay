@@ -40,7 +40,7 @@ in {
     "1.4.2" = mkBinaryInstall {
       version = "1.4.2";
       url = "https://github.com/surrealdb/surrealdb/releases/download/v1.4.2/surreal-v1.4.2.linux-arm64.tgz";
-      sha256 = "";
+      sha256 = "0xdaz8gy787rf3f3frk7czkdi1fyy5d24xip9lsnx7d88s02slw6";
     };
   };
 }
