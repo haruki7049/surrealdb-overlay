@@ -165,7 +165,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 20098623,
-        "download_count": 31,
+        "download_count": 32,
         "created_at": "2024-08-13T20:44:34Z",
         "updated_at": "2024-08-13T20:44:35Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.0-alpha.10/surreal-v2.0.0-alpha.10.linux-amd64.tgz"
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 18814414,
-        "download_count": 0,
+        "download_count": 2,
         "created_at": "2024-08-13T20:44:34Z",
         "updated_at": "2024-08-13T20:44:35Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.0-alpha.10/surreal-v2.0.0-alpha.10.linux-arm64.tgz"
@@ -244,13 +244,13 @@
     "body": "",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/170056388/reactions",
-      "total_count": 28,
+      "total_count": 29,
       "+1": 11,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
-      "heart": 17,
+      "heart": 18,
       "rocket": 0,
       "eyes": 0
     }
@@ -1343,7 +1343,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4639,
-        "download_count": 100,
+        "download_count": 101,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:08Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/LICENSE"
@@ -1445,7 +1445,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17083827,
-        "download_count": 406,
+        "download_count": 407,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:09Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.linux-amd64.tgz"
@@ -6309,7 +6309,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 16630054,
-        "download_count": 4349,
+        "download_count": 4351,
         "created_at": "2024-02-13T15:23:44Z",
         "updated_at": "2024-02-13T15:23:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.2.0/surreal-v1.2.0.linux-amd64.tgz"
@@ -11959,7 +11959,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4639,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2022-07-19T23:18:48Z",
         "updated_at": "2022-07-19T23:18:49Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.0.0-beta.2/LICENSE"
@@ -12181,7 +12181,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4639,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2022-07-18T22:31:59Z",
         "updated_at": "2022-07-18T22:31:59Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.0.0-beta.1/LICENSE"
