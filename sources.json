@@ -63,7 +63,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 71,
+        "download_count": 81,
         "created_at": "2024-10-03T21:01:09Z",
         "updated_at": "2024-10-03T21:01:10Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.3/LICENSE"
@@ -165,7 +165,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22805548,
-        "download_count": 86,
+        "download_count": 98,
         "created_at": "2024-10-03T21:01:09Z",
         "updated_at": "2024-10-03T21:01:10Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.3/surreal-v2.0.3.linux-amd64.tgz"
@@ -3493,7 +3493,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17083827,
-        "download_count": 479,
+        "download_count": 480,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:09Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.linux-amd64.tgz"
@@ -3561,7 +3561,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 36486144,
-        "download_count": 165,
+        "download_count": 166,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:09Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.windows-amd64.exe"
@@ -5353,7 +5353,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 36509696,
-        "download_count": 43,
+        "download_count": 44,
         "created_at": "2024-06-06T11:01:51Z",
         "updated_at": "2024-06-06T11:01:52Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.2/surreal-v1.5.2.windows-amd64.exe"
