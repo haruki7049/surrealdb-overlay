@@ -3,24 +3,33 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/23.11";
+    flake-parts.url = "github:hercules-ci/flake-parts";
     treefmt-nix.url = "github:numtide/treefmt-nix";
   };
 
-  outputs = { self, systems, nixpkgs, treefmt-nix }:
-    let
-      eachSystem = f:
-        nixpkgs.lib.genAttrs (import systems)
-        (system: f nixpkgs.legacyPackages.${system});
-      treefmtEval =
-        eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
-    in {
-      # Use `nix fmt`
-      formatter =
-        eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+  outputs =
+    inputs:
+    inputs.flake-parts.lib.mkFlake { inherit inputs; } {
+      systems = [
+        "x86_64-linux"
+      ];
 
-      # Use `nix flake check`
-      checks = eachSystem (pkgs: {
-        formatting = treefmtEval.${pkgs.system}.config.build.check self;
-      });
+      imports = [
+        inputs.treefmt-nix.flakeModule
+      ];
+
+      perSystem = { pkgs, ... }: {
+        treefmt = {
+          projectRootFile = "treefmt.nix";
+          programs.nixfmt.enable = true;
+          programs.yamlfmt.enable = true;
+        };
+
+        devShells.default = pkgs.mkShell {
+          packages = [
+            pkgs.nil
+          ];
+        };
+      };
     };
 }
