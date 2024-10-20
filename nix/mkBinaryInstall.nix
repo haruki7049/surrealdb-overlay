@@ -5,7 +5,7 @@
   rpath ? lib.makeLibraryPath [ gcc-unwrapped ],
   gcc-unwrapped,
 }:
-  
+
 {
   pname ? "surrealdb",
   version,
