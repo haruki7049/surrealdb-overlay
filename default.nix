@@ -1,6 +1,6 @@
 self: super:
 let
-  mkBinaryInstall-x86_64-linux = super.callPackage ./nix/mkBinInstall.x86_64-linux.nix { };
+  mkBinaryInstall-x86_64-linux = super.callPackage ./nix/mkBinaryInstall.x86_64-linux.nix { };
 in
 {
   surrealdb = {
