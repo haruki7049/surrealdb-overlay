@@ -2,7 +2,7 @@
   description = "An overlay for Godot";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/23.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     treefmt-nix.url = "github:numtide/treefmt-nix";
   };
@@ -18,17 +18,19 @@
         inputs.treefmt-nix.flakeModule
       ];
 
-      perSystem = { pkgs, ... }: {
-        treefmt = {
-          projectRootFile = "treefmt.nix";
-          programs.nixfmt.enable = true;
-        };
+      perSystem =
+        { pkgs, ... }:
+        {
+          treefmt = {
+            projectRootFile = "flake.nix";
+            programs.nixfmt.enable = true;
+          };
 
-        devShells.default = pkgs.mkShell {
-          packages = [
-            pkgs.nil
-          ];
+          devShells.default = pkgs.mkShell {
+            packages = [
+              pkgs.nil
+            ];
+          };
         };
-      };
     };
 }

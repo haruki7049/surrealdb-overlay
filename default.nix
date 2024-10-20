@@ -3,7 +3,13 @@ let
   lib = super.lib;
   fetchurl = super.fetchurl;
   rpath = super.lib.makeLibraryPath [ super.pkgs.gcc-unwrapped ];
-  mkBinaryInstall = { pname ? "surrealdb", version, url, sha256 }:
+  mkBinaryInstall =
+    {
+      pname ? "surrealdb",
+      version,
+      url,
+      sha256,
+    }:
     super.stdenv.mkDerivation rec {
       inherit pname version;
 
@@ -26,19 +32,18 @@ let
       '';
 
       meta = with lib; {
-        description =
-          "A scalable, distributed, collaborative, document-graph database, for the realtime web";
+        description = "A scalable, distributed, collaborative, document-graph database, for the realtime web";
         homepage = "https://surrealdb.com/";
         mainProgram = "surreal";
         license = licenses.bsl11;
       };
     };
-in {
+in
+{
   surrealdb = {
     "1.4.2" = mkBinaryInstall {
       version = "1.4.2";
-      url =
-        "https://github.com/surrealdb/surrealdb/releases/download/v1.4.2/surreal-v1.4.2.linux-arm64.tgz";
+      url = "https://github.com/surrealdb/surrealdb/releases/download/v1.4.2/surreal-v1.4.2.linux-arm64.tgz";
       sha256 = "0xdaz8gy787rf3f3frk7czkdi1fyy5d24xip9lsnx7d88s02slw6";
     };
   };
