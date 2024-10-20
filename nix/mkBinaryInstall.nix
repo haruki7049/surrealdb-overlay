@@ -9,13 +9,16 @@
 {
   pname ? "surrealdb",
   version,
-  url,
-  sha256,
+  srcs,
 }:
-stdenv.mkDerivation {
-  inherit pname version;
 
-  src = fetchurl { inherit url sha256; };
+let
+  src =
+    srcs.${stdenv.hostPlatform.system} or (throw "Unsupported system: ${stdenv.hostPlatform.system}");
+in
+
+stdenv.mkDerivation {
+  inherit pname version src;
 
   sourceRoot = ".";
 
