@@ -25,5 +25,27 @@ in
         };
       };
     };
+
+    "2.0.4" = mkBinaryInstall {
+      version = "2.0.4";
+      srcs = {
+        x86_64-linux = super.fetchurl {
+          url = "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.linux-amd64.tgz";
+          sha256 = "0z23sk1qqiy65f5ds4z08ag9igajx8h1wf50sd476v7iapqg9zp6";
+        };
+        aarch64-linux = super.fetchurl {
+          url = "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.linux-arm64.tgz";
+          sha256 = "1y6pysqk32b6c69yc57lpb0qvsd6zw41sm3vlca1gnw7l8qcvv2h";
+        };
+        x86_64-darwin = super.fetchurl {
+          url = "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.darwin-amd64.tgz";
+          sha256 = "1bwa2lw1jvam37sxk5aqn3g31rmp4wmfzympy21c564mwwqig91h";
+        };
+        aarch64-darwin = super.fetchurl {
+          url = "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.darwin-arm64.tgz";
+          sha256 = "1f9cw8dq7nka6873l59569yyzvrxk018wnskmjg1n9i54dsms1z1";
+        };
+      };
+    };
   };
 }
