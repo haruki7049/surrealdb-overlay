@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 183,
+        "download_count": 184,
         "created_at": "2024-10-08T15:18:23Z",
         "updated_at": "2024-10-08T15:18:23Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/LICENSE"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22810936,
-        "download_count": 264,
+        "download_count": 268,
         "created_at": "2024-10-08T15:18:23Z",
         "updated_at": "2024-10-08T15:18:23Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.linux-amd64.tgz"
@@ -240,7 +240,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 52198912,
-        "download_count": 64,
+        "download_count": 67,
         "created_at": "2024-10-08T15:18:23Z",
         "updated_at": "2024-10-08T15:18:24Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.windows-amd64.exe"
@@ -248,7 +248,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.4",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.4",
-    "body": "",
+    "body": "[Release note](https://surrealdb.com/releases#v2-0-4)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/178929546/reactions",
       "total_count": 22,
@@ -433,7 +433,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22805548,
-        "download_count": 142,
+        "download_count": 143,
         "created_at": "2024-10-03T21:01:09Z",
         "updated_at": "2024-10-03T21:01:10Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.3/surreal-v2.0.3.linux-amd64.tgz"
@@ -1748,7 +1748,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 16928628,
-        "download_count": 265,
+        "download_count": 267,
         "created_at": "2024-09-11T03:01:32Z",
         "updated_at": "2024-09-11T03:01:33Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.5/surreal-v1.5.5.linux-amd64.tgz"
@@ -1826,7 +1826,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v1.5.5",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v1.5.5",
-    "body": "",
+    "body": "[Release note](https://surrealdb.com/releases#v1-5-5)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/174455819/reactions",
       "total_count": 13,
