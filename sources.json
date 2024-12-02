@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 108,
+        "download_count": 113,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:44Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/LICENSE"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 23896658,
-        "download_count": 125,
+        "download_count": 132,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.linux-amd64.tgz"
@@ -240,7 +240,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 55724544,
-        "download_count": 34,
+        "download_count": 35,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.windows-amd64.exe"
@@ -774,7 +774,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.1.0",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.1.0",
-    "body": "",
+    "body": "## Release v2.1.0\r\n\r\n* Release date: Nov 21, 2024\r\n* [v2.1.0 release notes](https://surrealdb.com/releases#v2-1-0) on www.surrealdb.com with changes between v2.0.4 and v2.1.0",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/186704403/reactions",
       "total_count": 49,
