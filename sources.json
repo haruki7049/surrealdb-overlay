@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 130,
+        "download_count": 131,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:44Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/LICENSE"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 23896658,
-        "download_count": 154,
+        "download_count": 161,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.linux-amd64.tgz"
@@ -240,7 +240,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 55724544,
-        "download_count": 44,
+        "download_count": 45,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.windows-amd64.exe"
@@ -2011,7 +2011,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 22547041,
-        "download_count": 410,
+        "download_count": 414,
         "created_at": "2024-09-17T19:34:02Z",
         "updated_at": "2024-09-17T19:34:03Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.1/surreal-v2.0.1.linux-amd64.tgz"
@@ -2800,7 +2800,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 16928628,
-        "download_count": 457,
+        "download_count": 458,
         "created_at": "2024-09-11T03:01:32Z",
         "updated_at": "2024-09-11T03:01:33Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.5/surreal-v1.5.5.linux-amd64.tgz"
