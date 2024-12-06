@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 140,
+        "download_count": 142,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:44Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/LICENSE"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 23896658,
-        "download_count": 175,
+        "download_count": 178,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.linux-amd64.tgz"
@@ -240,7 +240,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 55724544,
-        "download_count": 49,
+        "download_count": 51,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.windows-amd64.exe"
@@ -3404,7 +3404,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-beta.1",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-beta.1",
-    "body": "",
+    "body": "* Release date: Aug 28th, 2024\r\n* [Changes between 2.0.0-beta.1 and 2.0.0-alpha.10](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.10...v2.0.0-beta.1)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/172372860/reactions",
       "total_count": 32,
@@ -3667,7 +3667,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.10",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.10",
-    "body": "",
+    "body": "* Release date: Aug 14th, 2024\r\n* [Changes between 2.0.0-alpha.10 and 2.0.0-alpha.9](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.9...v2.0.0-alpha.10)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/170056388/reactions",
       "total_count": 32,
@@ -3930,7 +3930,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.9",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.9",
-    "body": "",
+    "body": "* Release date: Aug 7th, 2024\r\n* [Changes between 2.0.0-alpha.9 and 2.0.0-alpha.8](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.8...v2.0.0-alpha.9)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/168954437/reactions",
       "total_count": 19,
@@ -4193,7 +4193,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.8",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.8",
-    "body": "",
+    "body": "* Release date: July 31st, 2024\r\n* [Changes between 2.0.0-alpha.8 and 2.0.0-alpha.7](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.7...v2.0.0-alpha.8)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/167911616/reactions",
       "total_count": 10,
@@ -4456,7 +4456,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.7",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.7",
-    "body": "",
+    "body": "* Release date: July 24th, 2024\r\n* [Changes between 2.0.0-alpha.7 and 2.0.0-alpha.6](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.6...v2.0.0-alpha.7)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/166752795/reactions",
       "total_count": 24,
@@ -4719,7 +4719,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.6",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.6",
-    "body": "",
+    "body": "* Release date: July 17th, 2024\r\n* [Changes between 2.0.0-alpha.6 and 2.0.0-alpha.5](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.5...v2.0.0-alpha.6)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/165675796/reactions",
       "total_count": 24,
@@ -4869,7 +4869,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14361804,
-        "download_count": 20,
+        "download_count": 23,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:09Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.darwin-arm64.tgz"
@@ -4904,7 +4904,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17083827,
-        "download_count": 492,
+        "download_count": 494,
         "created_at": "2024-07-10T17:32:08Z",
         "updated_at": "2024-07-10T17:32:09Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.linux-amd64.tgz"
@@ -5245,7 +5245,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.5",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.5",
-    "body": "",
+    "body": "* Release date: July 10th, 2024\r\n* [Changes between 2.0.0-alpha.4 and 2.0.0-alpha.4](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.4...v2.0.0-alpha.5)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/164634784/reactions",
       "total_count": 24,
@@ -5508,7 +5508,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.4",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.4",
-    "body": "",
+    "body": "* Release date: July 3rd, 2024\r\n* [Changes between 2.0.0-alpha.4 and 2.0.0-alpha.3](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.3...v2.0.0-alpha.4)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/163680763/reactions",
       "total_count": 39,
@@ -5771,7 +5771,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.3",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.3",
-    "body": "",
+    "body": "* Release date: June 25th, 2024\r\n* [Changes between 2.0.0-alpha.3 and 2.0.0-alpha.2](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.2...v2.0.0-alpha.3)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/162305168/reactions",
       "total_count": 22,
@@ -6034,7 +6034,7 @@
     ],
     "tarball_url": "https://api.github.com/repos/surrealdb/surrealdb/tarball/v2.0.0-alpha.2",
     "zipball_url": "https://api.github.com/repos/surrealdb/surrealdb/zipball/v2.0.0-alpha.2",
-    "body": "",
+    "body": "* Release date: June 19th, 2024\r\n* [Changes between 2.0.0-alpha.2 and 2.0.0-alpha.1](https://github.com/surrealdb/surrealdb/compare/v2.0.0-alpha.1...v2.0.0-alpha.2)",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/161157306/reactions",
       "total_count": 35,
