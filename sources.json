@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 150,
+        "download_count": 153,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:44Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/LICENSE"
@@ -135,7 +135,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 20230101,
-        "download_count": 8,
+        "download_count": 10,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.darwin-arm64.tgz"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 23896658,
-        "download_count": 192,
+        "download_count": 200,
         "created_at": "2024-11-26T18:01:44Z",
         "updated_at": "2024-11-26T18:01:45Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.2/surreal-v2.1.2.linux-amd64.tgz"
@@ -959,7 +959,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 17071202,
-        "download_count": 32,
+        "download_count": 33,
         "created_at": "2024-11-12T17:42:47Z",
         "updated_at": "2024-11-12T17:42:48Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.6/surreal-v1.5.6.linux-amd64.tgz"
@@ -994,7 +994,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 15960032,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2024-11-12T17:42:47Z",
         "updated_at": "2024-11-12T17:42:48Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.6/surreal-v1.5.6.linux-arm64.tgz"
