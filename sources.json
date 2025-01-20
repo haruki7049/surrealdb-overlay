@@ -65,7 +65,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 214,
+        "download_count": 215,
         "created_at": "2024-12-18T13:29:10Z",
         "updated_at": "2024-12-18T13:29:10Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.4/LICENSE"
@@ -170,7 +170,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 23853163,
-        "download_count": 282,
+        "download_count": 283,
         "created_at": "2024-12-18T13:29:10Z",
         "updated_at": "2024-12-18T13:29:11Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.4/surreal-v2.1.4.linux-amd64.tgz"
@@ -1783,7 +1783,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21177175,
-        "download_count": 14,
+        "download_count": 15,
         "created_at": "2024-10-08T15:18:23Z",
         "updated_at": "2024-10-08T15:18:23Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.4/surreal-v2.0.4.linux-arm64.tgz"
@@ -2572,7 +2572,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 20941631,
-        "download_count": 4,
+        "download_count": 5,
         "created_at": "2024-09-17T19:34:02Z",
         "updated_at": "2024-09-17T19:34:04Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.1/surreal-v2.0.1.linux-arm64.tgz"
@@ -3484,7 +3484,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4565,
-        "download_count": 3,
+        "download_count": 4,
         "created_at": "2024-09-04T16:59:50Z",
         "updated_at": "2024-09-04T16:59:50Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.0-beta.2/LICENSE"
@@ -3589,7 +3589,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 21459816,
-        "download_count": 22,
+        "download_count": 23,
         "created_at": "2024-09-04T16:59:50Z",
         "updated_at": "2024-09-04T16:59:50Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.0.0-beta.2/surreal-v2.0.0-beta.2.linux-amd64.tgz"
@@ -6710,7 +6710,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14357482,
-        "download_count": 14,
+        "download_count": 15,
         "created_at": "2024-06-14T14:35:00Z",
         "updated_at": "2024-06-14T14:35:01Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.3/surreal-v1.5.3.darwin-arm64.tgz"
@@ -9340,7 +9340,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 14307791,
-        "download_count": 5,
+        "download_count": 6,
         "created_at": "2024-03-12T14:44:21Z",
         "updated_at": "2024-03-12T14:44:23Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.3.0/surreal-v1.3.0.darwin-arm64.tgz"
@@ -12426,7 +12426,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 4639,
-        "download_count": 64,
+        "download_count": 65,
         "created_at": "2023-12-14T17:33:18Z",
         "updated_at": "2023-12-14T17:33:18Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.0.1/LICENSE"
@@ -12864,7 +12864,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 32451072,
-        "download_count": 13,
+        "download_count": 14,
         "created_at": "2023-12-13T07:10:12Z",
         "updated_at": "2023-12-13T07:10:13Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.1.0-beta.1/surreal-v1.1.0-beta.1.windows-amd64.exe"
