@@ -259,8 +259,8 @@
     "body": "Release 3.0.0-alpha.13",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/260016783/reactions",
-      "total_count": 1,
-      "+1": 1,
+      "total_count": 2,
+      "+1": 2,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
@@ -1188,7 +1188,7 @@
         "state": "uploaded",
         "size": 36067405,
         "digest": "sha256:8b5a87bd3267ae7d12805e3f808c7269886414c5af642b282f8431fa3f0a329a",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2025-09-19T10:19:58Z",
         "updated_at": "2025-09-19T10:19:59Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v3.0.0-alpha.9/surreal-v3.0.0-alpha.9.darwin-amd64.tgz"
@@ -1531,7 +1531,7 @@
         "state": "uploaded",
         "size": 25184853,
         "digest": "sha256:cb3ccfa9906684de8cad4e47326056617a36f4b049231d4aac53daadfce41dc2",
-        "download_count": 835,
+        "download_count": 838,
         "created_at": "2025-09-19T09:09:58Z",
         "updated_at": "2025-09-19T09:10:00Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.10/surreal-v2.3.10.linux-amd64.tgz"
@@ -1603,7 +1603,7 @@
         "state": "uploaded",
         "size": 60509184,
         "digest": "sha256:9f80f5b4c361b5274e17574822bddc7408f3a9c7b0d6a83a88a4c81f582ea9db",
-        "download_count": 233,
+        "download_count": 236,
         "created_at": "2025-09-19T09:09:58Z",
         "updated_at": "2025-09-19T09:10:00Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.10/surreal-v2.3.10.windows-amd64.exe"
@@ -2687,7 +2687,7 @@
         "state": "uploaded",
         "size": 57003520,
         "digest": "sha256:e6f3376a45c15898f3403ca5ccb0f9ae49878798651d196dfa376b198b9aab40",
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2025-09-11T12:28:16Z",
         "updated_at": "2025-09-11T12:28:18Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.9/surreal-v2.1.9.windows-amd64.exe"
@@ -5277,7 +5277,7 @@
         "state": "uploaded",
         "size": 35243853,
         "digest": "sha256:b3c97cef1aad7e0b3ed0d2c7530068c059e7c01bf49ee3bab7e79330c22ae8a8",
-        "download_count": 6,
+        "download_count": 7,
         "created_at": "2025-06-18T11:25:01Z",
         "updated_at": "2025-06-18T11:25:02Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v3.0.0-alpha.7/surreal-v3.0.0-alpha.7.darwin-arm64.tgz"
@@ -5313,7 +5313,7 @@
         "state": "uploaded",
         "size": 42050105,
         "digest": "sha256:e15e0c64cb34f2b167abb3b42649820ff0ca3ffeb769de24c62080d35c5b3c2f",
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2025-06-18T11:25:01Z",
         "updated_at": "2025-06-18T11:25:03Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v3.0.0-alpha.7/surreal-v3.0.0-alpha.7.linux-amd64.tgz"
@@ -5855,7 +5855,7 @@
         "state": "uploaded",
         "size": 24257283,
         "digest": "sha256:9929a1e2fa9312cf1a56ea1d4efb8e6912f3ae589a0c1b4edce72abe0e0b7b5f",
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2025-06-17T21:00:36Z",
         "updated_at": "2025-06-17T21:00:37Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.1.6/surreal-v2.1.6.linux-amd64.tgz"
@@ -7680,7 +7680,7 @@
         "state": "uploaded",
         "size": 23957751,
         "digest": null,
-        "download_count": 3,
+        "download_count": 4,
         "created_at": "2025-05-12T12:17:14Z",
         "updated_at": "2025-05-12T12:17:15Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.2/surreal-v2.3.2.darwin-amd64.tgz"
@@ -8728,7 +8728,7 @@
         "state": "uploaded",
         "size": 4565,
         "digest": null,
-        "download_count": 2,
+        "download_count": 3,
         "created_at": "2025-04-29T12:37:27Z",
         "updated_at": "2025-04-29T12:37:28Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v3.0.0-alpha.2/LICENSE"
@@ -8764,7 +8764,7 @@
         "state": "uploaded",
         "size": 24009282,
         "digest": null,
-        "download_count": 0,
+        "download_count": 1,
         "created_at": "2025-04-29T12:37:27Z",
         "updated_at": "2025-04-29T12:37:29Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v3.0.0-alpha.2/surreal-v3.0.0-alpha.2.darwin-amd64.tgz"
