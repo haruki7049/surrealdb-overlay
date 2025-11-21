@@ -259,14 +259,14 @@
     "body": "Release 3.0.0-alpha.14",
     "reactions": {
       "url": "https://api.github.com/repos/surrealdb/surrealdb/releases/264031567/reactions",
-      "total_count": 4,
-      "+1": 4,
+      "total_count": 7,
+      "+1": 5,
       "-1": 0,
       "laugh": 0,
       "hooray": 0,
       "confused": 0,
       "heart": 0,
-      "rocket": 0,
+      "rocket": 2,
       "eyes": 0
     }
   },
@@ -1694,7 +1694,7 @@
         "state": "uploaded",
         "size": 4565,
         "digest": "sha256:dd98c688e54be8b85ad79e603f5112449b9789dfc031db94eb5c7dc843702aef",
-        "download_count": 184,
+        "download_count": 185,
         "created_at": "2025-09-19T09:09:58Z",
         "updated_at": "2025-09-19T09:09:59Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.10/LICENSE"
@@ -1802,7 +1802,7 @@
         "state": "uploaded",
         "size": 25184853,
         "digest": "sha256:cb3ccfa9906684de8cad4e47326056617a36f4b049231d4aac53daadfce41dc2",
-        "download_count": 937,
+        "download_count": 939,
         "created_at": "2025-09-19T09:09:58Z",
         "updated_at": "2025-09-19T09:10:00Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.10/surreal-v2.3.10.linux-amd64.tgz"
@@ -10462,7 +10462,7 @@
         "state": "uploaded",
         "size": 24232593,
         "digest": null,
-        "download_count": 876,
+        "download_count": 877,
         "created_at": "2025-02-18T17:13:37Z",
         "updated_at": "2025-02-18T17:13:38Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.2.1/surreal-v2.2.1.linux-amd64.tgz"
@@ -20290,7 +20290,7 @@
         "state": "uploaded",
         "size": 36278272,
         "digest": null,
-        "download_count": 69,
+        "download_count": 71,
         "created_at": "2024-03-15T21:52:31Z",
         "updated_at": "2024-03-15T21:52:32Z",
         "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.3.1/surreal-v1.3.1.windows-amd64.exe"
